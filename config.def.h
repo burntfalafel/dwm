@@ -113,6 +113,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_c,      quit,           {0} },
 
 	{ MODKEY,		        XK_e, 	   spawn,          SHCMD("dmenukaomoji")},
+	{ MODKEY,		        XK_Print,  spawn,          SHCMD("screenshot full")},
+	{ MODKEY|ShiftMask,		XK_Print,  spawn,          SHCMD("screenshot select")},
 	{ MODKEY|ControlMask,		XK_l, 	   spawn,          {.v = (const char*[]){"st", "lf"} } },
 	{ MODKEY|ShiftMask,	        XK_s, 	   spawn,          SHCMD("doas shutdown -h now")},
 	{ MODKEY|ShiftMask,	        XK_h, 	   spawn,          SHCMD("/home/makishima/.local/bin/zzz")},
