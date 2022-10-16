@@ -5,7 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Misc Fixed:style=SemiCondensed:pixelsize=18:antialias=true:autohint=true";
+/* static char *font = "Misc Fixed:style=SemiCondensed:pixelsize=18:antialias=true:autohint=true"; */
+/* static char *font = "LucidaTypewriter:style=Sans:pixelsize=15:antialias=true:autohint=true"; */
+/* static char *font = "Tamzen:style=Sans:pixelsize=15:antialias=true:autohint=true"; */
+static char *font = "BlexMono Nerd Font Mono:style=Text,Regular:pixelsize=13:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
